@@ -17,3 +17,76 @@ blocks:
             - echo $APP_ENV
             - checkout
             - ls -alh
+    dependencies: []
+  - name: 'Block #2'
+    dependencies:
+      - Simple example
+    task:
+      jobs:
+        - name: 'Job #1'
+          commands:
+            - echo "Hello from Semaphore!"
+        - name: 'Job #2'
+          commands:
+            - echo "Hello from Semaphore!"
+        - name: 'Job #3'
+          commands:
+            - echo "Hello from Semaphore!"
+        - name: 'Job #4'
+          commands:
+            - echo "Hello from Semaphore!"
+        - name: 'Job #5'
+          commands:
+            - echo "Hello from Semaphore!"
+        - name: 'Job #6'
+          commands:
+            - echo "Hello from Semaphore!"
+        - name: 'Job #7'
+          commands:
+            - echo "Hello from Semaphore!"
+        - name: 'Job #8'
+          commands:
+            - echo "Hello from Semaphore!"
+        - name: 'Job #9'
+          commands:
+            - echo "Hello from Semaphore!"
+  - name: 'Block #3'
+    dependencies:
+      - Simple example
+    task:
+      jobs:
+        - name: 'Job #1'
+          commands:
+            - echo "Hello from Semaphore!"
+        - name: 'Job #2'
+          commands:
+            - echo "Hello from Semaphore!"
+        - name: 'Job #3'
+          commands:
+            - echo "Hello from Semaphore!"
+        - name: 'Job #4'
+          commands:
+            - echo "Hello from Semaphore!"
+        - name: 'Job #5'
+          commands:
+            - echo "Hello from Semaphore!"
+        - name: 'Job #6'
+          commands:
+            - echo "Hello from Semaphore!"
+        - name: 'Job #7'
+          commands:
+            - echo "Hello from Semaphore!"
+        - name: 'Job #8'
+          commands:
+            - echo "Hello from Semaphore!"
+        - name: 'Job #9'
+          commands:
+            - echo "Hello from Semaphore!"
+  - name: 'Block #4'
+    dependencies:
+      - Simple example
+    task:
+      jobs:
+        - name: 'Job #1'
+          commands:
+            - echo "Hello from Semaphore!"
